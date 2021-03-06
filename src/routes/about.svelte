@@ -2,6 +2,7 @@
 	<title>About</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>About Mike Thomas</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>I live in Brisbane, Queensland, Australia.  This site gathers the threads of my web presence into a single place.</p>
+<p>This site uses a Sapper template. See the blog...</p>

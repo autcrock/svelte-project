@@ -1,17 +1,24 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+	// import success kid from 'images/success kid.jpg';
 </script>
 
 <style>
-	h1, figure, p {
+	h1, figure {
 		text-align: center;
 		margin: 0 auto;
 	}
 
 	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
+		font-size: 1.5em;
+		/* text-transform: uppercase; */
+		font-weight: 400;
+		margin: 0 0 0.5em 0;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		/* text-transform: uppercase; */
+		font-weight: 500;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -37,14 +44,23 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Autcrock</title>
 </svelte:head>
 
-<h1>Great success!</h1>
 
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
+<h1>Autcrock</h1>
+<h2>Music</h2>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p>
+	<a href="https://michaeljosephthomas.bandcamp.com"><strong> Bandcamp - Michael Joseph Thomas </strong></a>
+</p>
+
+<p>
+	<a href="https://soundcloud.com/autcrock"><strong> SoundCloud - Autcrock </strong></a>
+</p>
+
+<h2>Software</h2>
+
+<p>
+	<a href="https://github.com/autcrock"><strong> GitHub Autcrock </strong></a>
+</p>
